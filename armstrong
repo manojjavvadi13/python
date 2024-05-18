@@ -1,0 +1,9 @@
+n=int(input("enter a number:"))
+l=len(str(n))
+temp=n
+arm=0
+while(n>0):
+    r=n%10
+    arm=arm+r**l
+    n=n//10
+print(temp==arm)
